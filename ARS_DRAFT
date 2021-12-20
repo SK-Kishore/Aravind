@@ -1,0 +1,284 @@
+toolbar_add -loc t -x 12 -y 1 -tool icon_table_add 
+toolbar_add -loc t -x 25 -y 0 -tool icon_detail_evus_only 
+toolbar_add -loc t -x 40 -y 1 -tool tool_selection_count 
+toolbar_add -loc t -x 11 -y 0 -tool icon_utility_func_20 
+toolbar_add -loc t -x 27 -y 0 -tool tool_job_display_wide 
+toolbar_add -loc t -x 20 -y 0 -tool icon_mode_pop 
+toolbar_add -loc t -x 24 -y 0 -tool icon_detail_subm_only 
+toolbar_add -loc t -x 23 -y 0 -tool icon_detail_memb_only 
+toolbar_add -loc t -x 22 -y 0 -tool tool_spacer 
+toolbar_add -loc t -x 21 -y 0 -tool tool_spacer 
+toolbar_add -loc t -x 15 -y 0 -tool tool_layer_display 
+toolbar_add -loc t -x 7 -y 1 -tool tool_spacer 
+toolbar_add -loc t -x 7 -y 0 -tool tool_spacer 
+toolbar_add -loc t -x 10 -y 0 -tool icon_member_edit 
+toolbar_add -loc t -x 3 -y 1 -tool icon_locate_ortho 
+toolbar_add -loc t -x 2 -y 1 -tool icon_locate_tanc 
+toolbar_add -loc t -x 1 -y 1 -tool icon_locate_center 
+toolbar_add -loc t -x 0 -y 1 -tool icon_locate_dxdy 
+toolbar_add -loc t -x 5 -y 1 -tool tool_spacer 
+toolbar_add -loc t -x 9 -y 0 -tool icon_layer_edit 
+toolbar_add -loc t -x 8 -y 0 -tool icon_redraw_options 
+toolbar_add -loc t -x 44 -y 0 -tool tool_xyz 
+toolbar_add -loc b -x 4 -y 0 -tool icon_conc_mode 
+toolbar_add -loc b -x 0 -y 0 -tool icon_cad_open_dwg 
+toolbar_add -loc b -x 1 -y 0 -tool icon_cad_save 
+toolbar_add -loc b -x 2 -y 0 -tool icon_cad_save_as 
+toolbar_add -loc b -x 3 -y 0 -tool icon_cad_save_reuse 
+toolbar_add -loc b -x 6 -y 0 -tool icon_circle_add 
+toolbar_add -loc b -x 7 -y 0 -tool tool_job_display 
+toolbar_add -loc b -x 10 -y 0 -tool tool_fab_display 
+toolbar_add -loc b -x 13 -y 0 -tool icon_dim_add_arc 
+toolbar_add -loc b -x 5 -y 0 -tool icon_arc_add 
+toolbar_add -loc t -x 4 -y 1 -tool tool_spacer 
+toolbar_add -loc t -x 8 -y 1 -tool icon_dim_mode 
+toolbar_add -loc t -x 9 -y 1 -tool icon_viewport_mode 
+toolbar_add -loc t -x 14 -y 0 -tool tool_spacer 
+toolbar_add -loc t -x 12 -y 0 -tool tool_spacer 
+toolbar_add -loc t -x 13 -y 0 -tool tool_spacer 
+toolbar_add -loc t -x 0 -y 0 -tool tool_bindings_3q 
+toolbar_add -loc t -x 15 -y 1 -tool tool_selection_filter 
+toolbar_add -loc t -x 22 -y 1 -tool tool_spacer 
+toolbar_add -loc t -x 23 -y 1 -tool icon_detail_current_pcmk 
+toolbar_add -loc t -x 24 -y 1 -tool tool_spacer 
+toolbar_add -loc t -x 25 -y 1 -tool text2_auto_repiecemark 
+toolbar_add -loc t -x 26 -y 1 -tool tool_spacer 
+toolbar_add -loc t -x 27 -y 1 -tool tool_fab_display_wide 
+toolbar_add -loc t -x 35 -y 1 -tool tool_dwg_display 
+toolbar_add -loc t -x 36 -y 0 -tool tool_status_short 
+toolbar_add -loc t -x 11 -y 1 -tool icon_report_writer_run_report 
+toolbar_add -loc t -x 10 -y 1 -tool icon_dim_add_Angle 
+toolbar_add -loc b -x 14 -y 0 -tool dtplt_tool_short_display 
+mode_add -mode user1 -desc {User Mode #1}
+mode_bind_add -mode user1 -button 1 -desc {Edit All} -command hatch_edit_all
+mode_bind_add -mode user1 -button 2 -desc {Select Polygon} -command hatch_add_select
+mode_bind_add -mode user1 -button 3 -desc {Define Polygon} -command hatch_add_define
+mode_bind_add -mode user1 -button 4 -mod p -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode user1 -button 4 -mod pa -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode user1 -button 4 -mod pc -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode user1 -button 4 -mod ps -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode user1 -button 5 -mod p -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode user1 -button 5 -mod pa -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode user1 -button 5 -mod pc -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode user1 -button 5 -mod ps -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_add -mode cad_labl -desc {Label Mode}
+mode_bind_add -mode cad_labl -button 1 -desc Edit -command label_edit
+mode_bind_add -mode cad_labl -button 1 -mod c -desc {Edit All} -command label_edit_all
+mode_bind_add -mode cad_labl -button 2 -desc Add -command label_add
+mode_bind_add -mode cad_labl -button 3 -desc Erase -command label_erase
+mode_bind_add -mode cad_labl -button 3 -mod c -desc {Erase All} -command label_erase_all
+mode_bind_add -mode cad_labl -button 4 -mod p -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode cad_labl -button 4 -mod pa -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode cad_labl -button 4 -mod pc -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode cad_labl -button 4 -mod ps -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode cad_labl -button 5 -mod p -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode cad_labl -button 5 -mod pa -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode cad_labl -button 5 -mod pc -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode cad_labl -button 5 -mod ps -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode cad_labl -button 2 -mod c -desc {Label Combo} -command label_add_combo
+mode_add -mode cad_diml -desc {Dimension Mode}
+mode_bind_add -mode cad_diml -button 1 -desc Edit -command dim_edit
+mode_bind_add -mode cad_diml -button 1 -mod c -desc {Edit All} -command dim_edit_all
+mode_bind_add -mode cad_diml -button 2 -desc Add -command dim_add
+mode_bind_add -mode cad_diml -button 3 -desc Erase -command dim_erase
+mode_bind_add -mode cad_diml -button 3 -mod c -desc {Erase All} -command dim_erase_all
+mode_bind_add -mode cad_diml -button 4 -mod p -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode cad_diml -button 4 -mod pa -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode cad_diml -button 4 -mod pc -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode cad_diml -button 4 -mod ps -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode cad_diml -button 5 -mod p -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode cad_diml -button 5 -mod pa -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode cad_diml -button 5 -mod pc -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode cad_diml -button 5 -mod ps -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode cad_diml -button 2 -mod c -desc RD -command cad_diml_add_ext_dim
+mode_bind_add -mode cad_diml -button 1 -mod s -desc Horizontal -command dim_add_horizontal
+mode_bind_add -mode cad_diml -button 2 -mod s -desc Actual -command dim_add_actual
+mode_bind_add -mode cad_diml -button 3 -mod s -desc Vertical -command dim_add_vertical
+mode_add -mode cad_weld -desc {Weld Mode}
+mode_bind_add -mode cad_weld -button 1 -desc Edit -command weld_edit
+mode_bind_add -mode cad_weld -button 2 -desc {Weld Combo} -command weld_add_combo
+mode_bind_add -mode cad_weld -button 3 -desc Erase -command weld_erase
+mode_bind_add -mode cad_weld -button 3 -mod c -desc {Erase All} -command weld_erase_all
+mode_bind_add -mode cad_weld -button 4 -mod p -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode cad_weld -button 4 -mod pa -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode cad_weld -button 4 -mod pc -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode cad_weld -button 4 -mod ps -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode cad_weld -button 5 -mod p -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode cad_weld -button 5 -mod pa -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode cad_weld -button 5 -mod pc -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode cad_weld -button 5 -mod ps -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_add -mode rebar_items -desc {Rebar Item Mode}
+mode_bind_add -mode rebar_items -button 4 -mod p -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode rebar_items -button 4 -mod pa -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode rebar_items -button 4 -mod pc -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode rebar_items -button 4 -mod ps -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode rebar_items -button 5 -mod p -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode rebar_items -button 5 -mod pa -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode rebar_items -button 5 -mod pc -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode rebar_items -button 5 -mod ps -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_add -mode rebar_runs -desc {Rebar Run Mode}
+mode_bind_add -mode rebar_runs -button 4 -mod p -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode rebar_runs -button 4 -mod pa -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode rebar_runs -button 4 -mod pc -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode rebar_runs -button 4 -mod ps -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode rebar_runs -button 5 -mod p -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode rebar_runs -button 5 -mod pa -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode rebar_runs -button 5 -mod pc -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode rebar_runs -button 5 -mod ps -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_add -mode layers -desc {Layer Mode}
+mode_bind_add -mode layers -button 1 -desc Edit -command layer_edit
+mode_bind_add -mode layers -button 1 -mod c -desc {Show All} -command layer_show_all
+mode_bind_add -mode layers -button 2 -desc Add -command layer_add
+mode_bind_add -mode layers -button 2 -mod s -desc Erase -command layer_erase
+mode_bind_add -mode layers -button 2 -mod c -desc {Erase All} -command layer_erase_all
+mode_bind_add -mode layers -button 3 -desc Hide -command layer_hide
+mode_bind_add -mode layers -button 3 -mod c -desc {Hide Others} -command layer_hide_others
+mode_bind_add -mode layers -button 4 -mod p -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode layers -button 4 -mod pa -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode layers -button 4 -mod pc -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode layers -button 4 -mod ps -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode layers -button 5 -mod p -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode layers -button 5 -mod pa -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode layers -button 5 -mod pc -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode layers -button 5 -mod ps -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_add -mode select -desc {Select Items}
+mode_bind_add -mode select -button 1 -mod p -desc Select -command moveselect
+mode_bind_add -mode select -button 1 -mod ps -desc {Select \\\\\\\\\\\\\\\+} -command moveselect_add
+mode_bind_add -mode select -button 1 -mod pc -desc {Select -} -command moveselect_remove
+mode_bind_add -mode select -button 1 -mod pcs -desc Toggle -command moveselect_toggle
+mode_bind_add -mode select -button 1 -mod ca -desc Clear -command select_clear
+mode_bind_add -mode select -button 1 -mod 2 -desc Edit -command edit_object
+mode_bind_add -mode select -button 2 -mod p -desc Pan -command cad_mouse_pan
+mode_bind_add -mode select -button 3 -mod r -desc Menu -command context_menu
+mode_bind_add -mode select -button 4 -mod p -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode select -button 4 -mod pa -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode select -button 4 -mod pc -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode select -button 4 -mod ps -desc {Zoom In} -command cad_zoom_in_ptr
+mode_bind_add -mode select -button 5 -mod p -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode select -button 5 -mod pa -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode select -button 5 -mod pc -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode select -button 5 -mod ps -desc {Zoom Out} -command cad_zoom_out_ptr
+mode_bind_add -mode select -button 3 -mod pc -desc Open -command cad_open_dwg
+key_bind_add -seq ! -tool set_filter_all
+key_bind_add -seq # -tool hole_sym_erase
+key_bind_add -seq % -tool set_filter_pointers
+key_bind_add -seq - -tool cad_prev_dwg
+key_bind_add -seq . -tool cad_delete
+key_bind_add -seq 0 -tool cad_save
+key_bind_add -seq 1 -tool cons_add_mtrl
+key_bind_add -seq 2 -tool locate_freept
+key_bind_add -seq 3 -tool cad_save_area
+key_bind_add -seq 4 -tool ruler
+key_bind_add -seq 5 -tool cad_open_dwg
+key_bind_add -seq 6 -tool cad_paste_repeatedly
+key_bind_add -seq 7 -tool cad_save_as
+key_bind_add -seq 8 -tool search_and_replace
+key_bind_add -seq 9 -tool cad_change_marks
+key_bind_add -seq <1> -tool locate_auto
+key_bind_add -seq <2> -tool locate_on
+key_bind_add -seq <3> -tool edit_selection
+key_bind_add -seq <A> -tool shorten
+key_bind_add -seq <B> -tool cad_paste_special
+key_bind_add -seq <C> -tool cad_copy_with_reference_point
+key_bind_add -seq <D> -tool tcl_edit_sys_sec
+key_bind_add -seq <Delete> -tool cad_delete
+key_bind_add -seq <Down> -tool cad_next_dwg
+key_bind_add -seq <E> -tool pdf_quick_print
+key_bind_add -seq <F1> -tool locate_incl
+key_bind_add -seq <F2> -tool locate_exact
+key_bind_add -seq <F3> -tool locate_basecon
+key_bind_add -seq <F4> -tool locate_perp
+key_bind_add -seq <F5> -tool locate_angle
+key_bind_add -seq <F6> -tool locate_incr
+key_bind_add -seq <F7> -tool locate_basemember
+key_bind_add -seq <F8> -tool locate_vert
+key_bind_add -seq <F9> -tool locate_midpoint
+key_bind_add -seq <F> -tool unshorten
+key_bind_add -seq <G> -tool explode
+key_bind_add -seq <K> -tool key_config
+key_bind_add -seq <KP_Add> -tool cad_next_dwg
+key_bind_add -seq <L> -tool config_load
+key_bind_add -seq <Left> -tool cad_prev_dwg
+key_bind_add -seq <M> -tool mode_config
+key_bind_add -seq <P> -tool quick_print
+key_bind_add -seq <Q> -tool dim_add_actual
+key_bind_add -seq <quoteleft> -tool cad_move_area
+key_bind_add -seq <R> -tool cad_clip_area
+key_bind_add -seq <Right> -tool cad_next_dwg
+key_bind_add -seq <space> -tool locate_basereal
+key_bind_add -seq <T> -tool toolbar_config
+key_bind_add -seq <Up> -tool cad_prev_dwg
+key_bind_add -seq <V> -tool cad_paste
+key_bind_add -seq <W> -tool wkpt_add
+key_bind_add -seq <X> -tool cad_cut_with_reference_point
+key_bind_add -seq <Y> -tool cad_redo
+key_bind_add -seq <Z> -tool cad_undo
+key_bind_add -seq @ -tool set_filter_dimensions
+key_bind_add -seq ` -tool locate_ortho
+key_bind_add -seq A -tool mtrl_callout_add
+key_bind_add -seq a -tool set_filter_polygons
+key_bind_add -seq B -tool sheet_comp_reorder
+key_bind_add -seq b -tool bolt_sym_erase
+key_bind_add -seq C -tool cons_mode
+key_bind_add -seq c -tool set_filter_circles
+key_bind_add -seq D -tool dim_mode
+key_bind_add -seq d -tool set_filter_custom
+key_bind_add -seq E -tool edit_selection
+key_bind_add -seq e -tool bom_edit
+key_bind_add -seq F -tool evu_cleanup
+key_bind_add -seq H -tool user1_mode
+key_bind_add -seq h -tool set_filter_holes
+key_bind_add -seq I -tool review_2d
+key_bind_add -seq K -tool cons_erase_all
+key_bind_add -seq L -tool label_mode
+key_bind_add -seq l -tool set_filter_labels
+key_bind_add -seq M -tool mtrl_draft
+key_bind_add -seq m -tool set_filter_members
+key_bind_add -seq N -tool load_item
+key_bind_add -seq O -tool cad_open_dwg
+key_bind_add -seq P -tool pntr_mode
+key_bind_add -seq p -tool set_filter_pointers
+key_bind_add -seq q -tool set_filter_clouds
+key_bind_add -seq Q -tool cloud_mode
+key_bind_add -seq r -tool revision_chart_edit
+key_bind_add -seq S -tool sheet_comp_mode
+key_bind_add -seq T -tool cad_view_section
+key_bind_add -seq U -tool cad_save_reuse
+key_bind_add -seq V -tool line_mode
+key_bind_add -seq v -tool set_filter_lines
+key_bind_add -seq W -tool weld_mode
+key_bind_add -seq w -tool set_filter_welds
+key_bind_add -seq X -tool cad_save
+key_bind_add -seq Y -tool bevel_mode
+key_bind_add -seq y -tool set_filter_bevels
+key_bind_add -seq Z -tool cad_delete
+key_bind_add -seq z -tool viewport_mode
+key_bind_add -seq ~ -tool set_filter_default
+shortcut_menu_add -name "Special"
+shortcut_menu_bind_add -type "1" -command "cad_cut_with_reference_point" -auto_display "1" -display "Cut with Reference Point" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "1" -command "cad_copy_with_reference_point" -auto_display "1" -display "Copy with Reference Point" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "1" -command "cad_paste_at_original_location" -auto_display "1" -display "Paste at Original Location" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "1" -command "cad_paste_repeatedly" -auto_display "1" -display "Paste Repeatedly" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "1" -command "cad_paste_special" -auto_display "1" -display "Paste Special" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "1" -command "cad_paste_to_several" -auto_display "0" -display "Paste to Several..." -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_add -name "main"
+shortcut_menu_bind_add -type "1" -command "edit_selection" -auto_display "1" -display "Edit" -selection "Any" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "3" -auto_display "1" -display "----------------" -selection "Any" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "2" -menu_type "Select Other" -auto_display "1" -display "Select Other" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "2" -menu_type "Edit Other" -auto_display "1" -display "Edit Other" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "1" -command "select_clear" -auto_display "1" -display "Clear Selection" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "1" -command "restore_retained_selection" -auto_display "1" -display "Restore Selection" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "3" -auto_display "1" -display "----------------" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "1" -command "unzoom" -auto_display "1" -display "Zoom to Fit" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "1" -command "redraw" -auto_display "1" -display "Redraw" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "3" -auto_display "1" -display "----------------" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "1" -command "cad_cut" -auto_display "1" -display "Cut" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "1" -command "cad_copy" -auto_display "1" -display "Copy" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "1" -command "cad_paste" -auto_display "1" -display "Paste" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "1" -command "cad_delete" -auto_display "1" -display "Delete" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "2" -menu_type "Custom" -menu "Special" -auto_display "1" -display "Special" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "3" -auto_display "1" -display "----------------" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "1" -command "cad_undo" -auto_display "1" -display "Undo" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "1" -command "cad_redo" -auto_display "1" -display "Redo" -selection "Always" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "3" -auto_display "1" -display "----------------" -selection "Any" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 
+shortcut_menu_bind_add -type "1" -command "cad_move_area" -auto_display "1" -display "Move/Stretch" -selection "Any" -drawing_type "2" -drawing_type "3" -drawing_type "5" -drawing_type "6" -drawing_type "7" -drawing_type "9" -drawing_type "10" -drawing_type "11" -drawing_type "17" -drawing_type "23" 

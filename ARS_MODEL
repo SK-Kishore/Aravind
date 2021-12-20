@@ -1,0 +1,359 @@
+toolbar_add -loc t -x 43 -y 2 -tool text2_LAUNCHER_Floor_Hrs 
+toolbar_add -loc t -x 41 -y 2 -tool text2_LAUNCHER_COMP 
+toolbar_add -loc t -x 8 -y 1 -tool icon_solids_all 
+toolbar_add -loc t -x 3 -y 0 -tool icon_curved_grid_add_radius 
+toolbar_add -loc t -x 1 -y 0 -tool icon_curved_grid_add_3p 
+toolbar_add -loc t -x 38 -y 2 -tool text2_LAUNCHER_BentPL_Rad_Check 
+toolbar_add -loc t -x 36 -y 2 -tool text2_LAUNCHER_Len_Check 
+toolbar_add -loc t -x 34 -y 2 -tool text2_LAUNCHER_Main_Mt_Mark 
+toolbar_add -loc t -x 32 -y 2 -tool icon_LAUNCHER_Mem_Desc 
+toolbar_add -loc t -x 31 -y 2 -tool icon_LAUNCHER_Mem_Mat 
+toolbar_add -loc t -x 30 -y 2 -tool icon_LAUNCHER_Mem_Grade 
+toolbar_add -loc t -x 29 -y 2 -tool icon_LAUNCHER_Memb_SS 
+toolbar_add -loc t -x 28 -y 2 -tool icon_LAUNCHER_Mem_Pcmk 
+toolbar_add -loc t -x 27 -y 2 -tool icon_LAUNCHER_Mat_Grade 
+toolbar_add -loc t -x 26 -y 2 -tool icon_LAUNCHER_Mtrl_Profile 
+toolbar_add -loc t -x 25 -y 2 -tool icon_LAUNCHER_Mtrl_Pcmk 
+toolbar_add -loc t -x 19 -y 2 -tool icon_copy_job_to_job_members 
+toolbar_add -loc t -x 20 -y 2 -tool icon_paste_job_to_job_members 
+toolbar_add -loc t -x 16 -y 2 -tool icon_mode_pop 
+toolbar_add -loc t -x 11 -y 2 -tool icon_conc_mode 
+toolbar_add -loc t -x 4 -y 2 -tool text2_LAUNCHER_CNS_MID 
+toolbar_add -loc t -x 4 -y 1 -tool tool_spacer 
+toolbar_add -loc t -x 3 -y 2 -tool text_python_tool_pyprompt 
+toolbar_add -loc t -x 1 -y 2 -tool text2_LAUNCHER_Elv_Sel 
+toolbar_add -loc t -x 1 -y 1 -tool text2_LAUNCHER_No_ABM 
+toolbar_add -loc t -x 0 -y 1 -tool icon_weld_mode 
+toolbar_add -loc t -x 0 -y 2 -tool text2_LAUNCHER_LN_DVD 
+toolbar_add -loc t -x 6 -y 0 -tool icon_LAUNCHER_RBDL_Sync 
+toolbar_add -loc r -x 0 -y 0 -tool tool_model_tree 
+toolbar_add -loc t -x 11 -y 1 -tool icon_param_run 
+toolbar_add -loc t -x 5 -y 1 -tool text2_LAUNCHER_Hole_Dia 
+toolbar_add -loc t -x 34 -y 1 -tool tool_status_toggle 
+toolbar_add -loc t -x 0 -y 0 -tool icon_view_new 
+toolbar_add -loc t -x 37 -y 1 -tool tool_status_config 
+toolbar_add -loc t -x 42 -y 1 -tool tool_selection_count 
+toolbar_add -loc t -x 3 -y 1 -tool text2_LAUNCHER_WEIGHT 
+toolbar_add -loc t -x 7 -y 0 -tool tool_bindings_3q 
+toolbar_add -loc t -x 13 -y 1 -tool tool_selection_filter 
+toolbar_add -loc t -x 19 -y 1 -tool tool_view_display 
+toolbar_add -loc t -x 22 -y 1 -tool tool_elevation_display 
+toolbar_add -loc t -x 28 -y 1 -tool tool_depth_check 
+toolbar_add -loc t -x 42 -y 0 -tool tool_status_short 
+toolbar_add -loc t -x 34 -y 0 -tool tool_xyz 
+toolbar_add -loc t -x 12 -y 1 -tool icon_param_rerun 
+toolbar_add -loc t -x 25 -y 1 -tool tool_fab_display 
+toolbar_add -loc t -x 6 -y 1 -tool icon_memb_set_mode_stick 
+toolbar_add -loc t -x 9 -y 1 -tool icon_advanced_selection 
+toolbar_add -loc t -x 10 -y 1 -tool icon_advanced_selection_file 
+toolbar_add -loc t -x 9 -y 2 -tool icon_clone_notes 
+toolbar_add -loc t -x 10 -y 2 -tool icon_move_notes 
+toolbar_add -loc t -x 12 -y 2 -tool text2_pytool.AdvancedSelections.MemberSectionSize_partial_entry 
+toolbar_add -loc t -x 18 -y 2 -tool icon_visual_undelete 
+toolbar_add -loc t -x 33 -y 2 -tool icon_selMemByNum 
+toolbar_add -loc t -x 17 -y 2 -tool icon_member_change_type 
+toolbar_add -loc t -x 4 -y 0 -tool icon_LAUNCHER_SHAPE 
+toolbar_add -loc t -x 2 -y 0 -tool icon_view_move 
+toolbar_add -loc t -x 5 -y 0 -tool icon_report_writer_run_report 
+toolbar_add -loc t -x 2 -y 1 -tool tool_spacer 
+toolbar_add -loc t -x 25 -y 0 -tool tool_job_display_wide 
+toolbar_add -loc t -x 40 -y 2 -tool text2_LAUNCHER_Beam 
+toolbar_add -loc t -x 14 -y 2 -tool text2_LAUNCHER_bolt_dia_check 
+toolbar_add -loc t -x 48 -y 2 -tool icon_member_stat_update 
+toolbar_add -loc t -x 49 -y 2 -tool icon_pytool.ExcelReports.ExcelReportsCommand 
+toolbar_add -loc t -x 50 -y 2 -tool icon_rpt_clash 
+toolbar_add -loc t -x 51 -y 2 -tool icon_cad 
+toolbar_add -loc t -x 42 -y 2 -tool text2_LAUNCHER_ENC 
+toolbar_add -loc t -x 7 -y 1 -tool icon_solid_t_all 
+toolbar_add -loc t -x 2 -y 2 -tool icon_reference_drawing_tools 
+toolbar_add -loc t -x 21 -y 2 -tool icon_member_break 
+toolbar_add -loc t -x 22 -y 2 -tool icon_member_unbreak 
+toolbar_add -loc t -x 23 -y 2 -tool icon_mtrl_bend_line 
+toolbar_add -loc t -x 24 -y 2 -tool icon_mtrl_bend_point 
+toolbar_add -loc t -x 45 -y 1 -tool icon_LAUNCHER_SDS_2_WareHouse 
+toolbar_add -loc t -x 46 -y 1 -tool icon_LAUNCHER_APW 
+toolbar_add -loc t -x 47 -y 1 -tool icon_choice_cnc 
+toolbar_add -loc t -x 48 -y 1 -tool icon_utility_func_24 
+toolbar_add -loc t -x 49 -y 1 -tool icon_model_link 
+toolbar_add -loc t -x 50 -y 1 -tool icon_utility_func_20 
+toolbar_add -loc t -x 14 -y 0 -tool icon_mtrl_rotate 
+toolbar_add -loc t -x 15 -y 0 -tool icon_component_add 
+toolbar_add -loc t -x 16 -y 0 -tool icon_component_copy 
+toolbar_add -loc t -x 17 -y 0 -tool icon_component_move 
+toolbar_add -loc t -x 18 -y 0 -tool icon_view_change_depth 
+toolbar_add -loc t -x 19 -y 0 -tool icon_assm_load 
+toolbar_add -loc t -x 20 -y 0 -tool icon_assm_save 
+toolbar_add -loc t -x 21 -y 0 -tool icon_mtrl_multi_cut 
+toolbar_add -loc t -x 22 -y 0 -tool icon_mtrl_chamfer 
+toolbar_add -loc t -x 23 -y 0 -tool icon_mtrl_fit_exact 
+toolbar_add -loc t -x 8 -y 2 -tool icon_add_note 
+toolbar_add -loc t -x 45 -y 2 -tool icon_rot_rep_mode 
+toolbar_add -loc t -x 46 -y 2 -tool icon_LAUNCHER_ArcLength_Calc 
+toolbar_add -loc t -x 47 -y 2 -tool icon_LAUNCHER_Calculator 
+toolbar_add -loc t -x 52 -y 2 -tool icon_LAUNCHER_Run_parametric 
+toolbar_add -loc t -x 52 -y 1 -tool icon_view_exit 
+toolbar_add -loc t -x 51 -y 1 -tool tool_spacer 
+toolbar_add -loc t -x 7 -y 2 -tool icon_locate_auto 
+toolbar_add -loc t -x 6 -y 2 -tool icon_locate_on 
+mode_add -mode user4 -desc {User Mode #4}
+mode_bind_add -mode user4 -button 1 -desc {Edit Assembly} -command assembly_editor_edit
+mode_bind_add -mode user4 -button 2 -desc {Add Assembly} -command assm_load
+mode_bind_add -mode user4 -button 3 -desc {Edit Assembly} -command assm_save
+mode_bind_add -mode user4 -button 2 -mod s -desc Dimension -ismode -command dim_mode
+mode_add -mode user3 -desc {User Mode #3}
+mode_bind_add -mode user3 -button 1 -desc {Cut Layout} -command mtrl_multi_cut
+mode_bind_add -mode user3 -button 2 -desc Chamfer -command mtrl_chamfer
+mode_bind_add -mode user3 -button 3 -desc {Fit Exact} -command mtrl_fit_exact
+mode_bind_add -mode user3 -button 2 -mod s -desc {Add Comp} -command component_add
+mode_add -mode bolt -desc {Bolt Mode}
+mode_bind_add -mode bolt -button 1 -desc Edit -command bolt_edit
+mode_bind_add -mode bolt -button 1 -mod s -desc Check -command bolt_check
+mode_bind_add -mode bolt -button 1 -mod c -desc Check -command bolt_check
+mode_bind_add -mode bolt -button 2 -desc Add -command bolt_add
+mode_bind_add -mode bolt -button 2 -mod s -desc {Add 1-Ply} -command bolt_add_one_ply
+mode_bind_add -mode bolt -button 2 -mod c -desc {Nut & Washer} -command nut_and_washer_add
+mode_bind_add -mode bolt -button 3 -desc Erase -command bolt_erase
+mode_bind_add -mode bolt -button 4 -mod p -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode bolt -button 4 -mod pa -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode bolt -button 4 -mod pc -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode bolt -button 4 -mod ps -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode bolt -button 5 -mod p -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode bolt -button 5 -mod pa -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode bolt -button 5 -mod pc -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode bolt -button 5 -mod ps -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_add -mode mtrl -desc {Material Mode}
+mode_bind_add -mode mtrl -button 1 -desc Edit -command mtrl_edit
+mode_bind_add -mode mtrl -button 2 -desc Add -command mtrl_add
+mode_bind_add -mode mtrl -button 3 -desc Erase -command mtrl_erase
+mode_bind_add -mode mtrl -button 1 -mod s -desc {Set Ref Pt} -command mtrl_set_ref
+mode_bind_add -mode mtrl -button 2 -mod s -desc Stretch -command mtrl_stretch
+mode_bind_add -mode mtrl -button 3 -mod s -desc {Rotate Mtrl} -command mtrl_rotate
+mode_bind_add -mode mtrl -button 4 -mod p -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode mtrl -button 4 -mod pa -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode mtrl -button 4 -mod pc -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode mtrl -button 4 -mod ps -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode mtrl -button 5 -mod p -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode mtrl -button 5 -mod pa -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode mtrl -button 5 -mod pc -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode mtrl -button 5 -mod ps -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode mtrl -button 1 -mod c -desc Move -command mtrl_move
+mode_bind_add -mode mtrl -button 2 -mod c -desc Mirror -command mtrl_mirror_plane_copy
+mode_bind_add -mode mtrl -button 3 -mod c -desc Copy -command mtrl_copy
+mode_add -mode member -desc {Member Mode}
+mode_bind_add -mode member -button 1 -desc Edit -command member_edit
+mode_bind_add -mode member -button 2 -desc Add -command member_add_prompt
+mode_bind_add -mode member -button 3 -desc Erase -command member_erase
+mode_bind_add -mode member -button 1 -mod c -desc Move -command member_move_legacy
+mode_bind_add -mode member -button 2 -mod c -desc {Add Beam} -command member_add_beam
+mode_bind_add -mode member -button 3 -mod c -desc Copy -command member_copy
+mode_bind_add -mode member -button 1 -mod s -desc {Add Hbrace} -command member_add_hbrace
+mode_bind_add -mode member -button 2 -mod s -desc {Add Column} -command member_add_column
+mode_bind_add -mode member -button 3 -mod s -desc {Add Vbrace} -command member_add_vbrace
+mode_bind_add -mode member -button 1 -mod a -desc {Edit (Pcm)} -command member_edit_pcmk
+mode_bind_add -mode member -button 2 -mod a -desc {Add Misc} -command member_add_misc
+mode_bind_add -mode member -button 3 -mod a -desc {Edit (Num)} -command member_edit_number
+mode_bind_add -mode member -button 1 -mod cs -desc {Add Joist} -command member_add_joist
+mode_bind_add -mode member -button 2 -mod cs -desc Add -command member_add_prompt
+mode_bind_add -mode member -button 3 -mod cs -desc {Add Stair} -command member_add_stair
+mode_bind_add -mode member -button 1 -mod sa -desc {Erase (Pcm)} -command member_erase_pcmk
+mode_bind_add -mode member -button 2 -mod sa -desc {Add Misc} -command member_add_misc
+mode_bind_add -mode member -button 3 -mod sa -desc {Erase (Num)} -command member_erase_numb
+mode_bind_add -mode member -button 4 -mod p -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode member -button 4 -mod pa -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode member -button 4 -mod pc -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode member -button 4 -mod ps -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode member -button 5 -mod p -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode member -button 5 -mod pa -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode member -button 5 -mod pc -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode member -button 5 -mod ps -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_add -mode user2 -desc {User Mode #2}
+mode_bind_add -mode user2 -button 1 -desc Edit -command edit_list
+mode_bind_add -mode user2 -button 2 -desc Load -command load_list
+mode_bind_add -mode user2 -button 3 -desc Save -command save_list
+mode_bind_add -mode user2 -button 4 -mod p -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode user2 -button 4 -mod pa -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode user2 -button 4 -mod pc -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode user2 -button 4 -mod ps -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode user2 -button 5 -mod p -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode user2 -button 5 -mod pa -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode user2 -button 5 -mod pc -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode user2 -button 5 -mod ps -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_add -mode user1 -desc {User Mode #1}
+mode_bind_add -mode user1 -button 1 -desc {Hide Selected} -command member_hide
+mode_bind_add -mode user1 -button 2 -desc {Hide Unselected} -command member_hide_unselected
+mode_bind_add -mode user1 -button 3 -desc {Show Menbers} -command member_unhide
+mode_bind_add -mode user1 -button 4 -mod p -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode user1 -button 4 -mod pa -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode user1 -button 4 -mod pc -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode user1 -button 4 -mod ps -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode user1 -button 5 -mod p -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode user1 -button 5 -mod pa -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode user1 -button 5 -mod pc -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode user1 -button 5 -mod ps -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_add -mode {divide line} -desc divide
+mode_bind_add -mode {divide line} -button 1 -mod p -desc DIVIDE -command param_run
+mode_add -mode solids -desc {Solids Mode}
+mode_bind_add -mode solids -button 1 -mod s -desc {All TM} -command solids_toggle
+mode_bind_add -mode solids -button 2 -desc Stick -command stick_all
+mode_bind_add -mode solids -button 2 -mod s -desc {All Stick} -command stick_all
+mode_bind_add -mode solids -button 3 -desc Opaque -command memb_set_mode_solid
+mode_bind_add -mode solids -button 3 -mod s -desc {All Opaque} -command solids_all
+mode_bind_add -mode solids -button 4 -mod p -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode solids -button 4 -mod pa -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode solids -button 4 -mod pc -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode solids -button 4 -mod ps -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode solids -button 5 -mod p -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode solids -button 5 -mod pa -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode solids -button 5 -mod pc -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode solids -button 5 -mod ps -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode solids -button 1 -desc {Trans Main} -command solids_toggle
+mode_add -mode fit -desc {Material Fit Mode}
+mode_bind_add -mode fit -button 4 -mod p -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode fit -button 4 -mod pa -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode fit -button 4 -mod pc -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode fit -button 4 -mod ps -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode fit -button 5 -mod p -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode fit -button 5 -mod pa -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode fit -button 5 -mod pc -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode fit -button 5 -mod ps -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_add -mode hole -desc {Hole Mode}
+mode_bind_add -mode hole -button 1 -desc Edit -command hole_edit
+mode_bind_add -mode hole -button 1 -mod s -desc {Ref. Point} -command hole_set_ref
+mode_bind_add -mode hole -button 4 -mod p -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode hole -button 4 -mod pa -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode hole -button 4 -mod pc -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode hole -button 4 -mod ps -desc {Zoom In} -command flythrough_zoom_in_ptr
+mode_bind_add -mode hole -button 5 -mod p -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode hole -button 5 -mod pa -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode hole -button 5 -mod pc -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode hole -button 5 -mod ps -desc {Zoom Out} -command flythrough_zoom_out_ptr
+mode_bind_add -mode hole -button 2 -desc Add -command hole_add
+mode_bind_add -mode hole -button 3 -desc Erase -command hole_erase
+mode_bind_add -mode hole -button 1 -mod c -desc Move -command hole_move
+mode_bind_add -mode hole -button 3 -mod c -desc Match -command hole_match
+mode_bind_add -mode hole -button 3 -mod s -desc {Move Group} -command hole_group_move
+mode_add -mode dim_mode -desc {Dimension Mode}
+mode_bind_add -mode dim_mode -button 2 -desc {Add Dim} -command pytool.DimensionMember.DimensionMemberCommand
+key_bind_add -seq ! -tool set_filter_all
+key_bind_add -seq # -tool set_filter_material
+key_bind_add -seq $ -tool set_filter_beams
+key_bind_add -seq - -tool toggle_depth_check
+key_bind_add -seq . -tool memb_set_mode_solid_t
+key_bind_add -seq 0 -tool member_mark_process
+key_bind_add -seq 1 -tool cons_add_mtrl
+key_bind_add -seq 2 -tool locate_freept
+key_bind_add -seq 3 -tool locate_auto
+key_bind_add -seq 4 -tool locate_on
+key_bind_add -seq 5 -tool view_open
+key_bind_add -seq <1> -tool view_retain
+key_bind_add -seq <2> -tool view_prev_retain
+key_bind_add -seq <3> -tool view_next_retain
+key_bind_add -seq <A> -tool user4_mode
+key_bind_add -seq <C> -tool user3_mode
+key_bind_add -seq <D> -tool show_dimensions
+key_bind_add -seq <Delete> -tool delete_object
+key_bind_add -seq <E> -tool material_isolate_locate
+key_bind_add -seq <F1> -tool locate_incl
+key_bind_add -seq <F2> -tool locate_exact
+key_bind_add -seq <F3> -tool locate_basecon
+key_bind_add -seq <F4> -tool locate_perp
+key_bind_add -seq <F5> -tool locate_angle
+key_bind_add -seq <F6> -tool locate_incm
+key_bind_add -seq <F7> -tool locate_vert
+key_bind_add -seq <F8> -tool locate_basegrid
+key_bind_add -seq <F9> -tool locate_basegrid
+key_bind_add -seq <K> -tool key_config
+key_bind_add -seq <KP_Add> -tool tool_status_toggle
+key_bind_add -seq <L> -tool config_load
+key_bind_add -seq <P> -tool view_plan
+key_bind_add -seq <Q> -tool user2_mode
+key_bind_add -seq <quoteleft> -tool member_move_legacy
+key_bind_add -seq <R> -tool rotate_view
+key_bind_add -seq <S> -tool member_display
+key_bind_add -seq <space> -tool locate_basemember
+key_bind_add -seq <T> -tool toolbar_config
+key_bind_add -seq <W> -tool isolate_locate
+key_bind_add -seq <X> -tool mtrl_find
+key_bind_add -seq @ -tool set_filter_members
+key_bind_add -seq ^ -tool set_filter_welds
+key_bind_add -seq ` -tool view_previous
+key_bind_add -seq a -tool locate_auto
+key_bind_add -seq A -tool mtrl_stretch
+key_bind_add -seq b -tool set_filter_bolts
+key_bind_add -seq B -tool bolt_mode
+key_bind_add -seq C -tool cons_mode
+key_bind_add -seq c -tool set_filter_columns
+key_bind_add -seq d -tool redraw_options
+key_bind_add -seq D -tool ruler
+key_bind_add -seq E -tool edit_selection
+key_bind_add -seq F -tool srfc_mode
+key_bind_add -seq G -tool view_save_area
+key_bind_add -seq g -tool set_filter_girts
+key_bind_add -seq h -tool set_filter_holes
+key_bind_add -seq H -tool hole_mode
+key_bind_add -seq I -tool view_iso
+key_bind_add -seq J -tool bolt_check
+key_bind_add -seq j -tool set_filter_joists
+key_bind_add -seq K -tool cons_erase_all
+key_bind_add -seq l -tool set_filter_material
+key_bind_add -seq L -tool mtrl_mode
+key_bind_add -seq M -tool member_mode
+key_bind_add -seq m -tool set_filter_misc
+key_bind_add -seq N -tool grid_line_add
+key_bind_add -seq O -tool view_open
+key_bind_add -seq P -tool cp_edit_member
+key_bind_add -seq Q -tool isolate_pcmk
+key_bind_add -seq R -tool rot_rep_mode
+key_bind_add -seq s -tool member_stat_update
+key_bind_add -seq S -tool memb_set_mode_stick
+key_bind_add -seq T -tool view_section
+key_bind_add -seq v -tool set_filter_vertical_braces
+key_bind_add -seq W -tool user1_mode
+key_bind_add -seq X -tool memb_set_mode_solid
+key_bind_add -seq Z -tool unzoom
+key_bind_add -seq ~ -tool set_filter_default
+shortcut_menu_add -name "main"
+shortcut_menu_bind_add -type "1" -command "edit_selection" -auto_display "1" -display "Edit" -selection "Any" 
+shortcut_menu_bind_add -type "2" -menu_type "Select Other" -auto_display "1" -display "Select Other" -selection "Always" 
+shortcut_menu_bind_add -type "1" -command "unzoom" -auto_display "1" -display "Zoom to Fit" -selection "Always" 
+shortcut_menu_bind_add -type "1" -command "memb_set_mode_solid" -auto_display "1" -display "Solid Opaque" -selection "Custom" -custom_selection_or "Group Members" -custom_selection_or "Members" 
+shortcut_menu_bind_add -type "1" -command "context_dflt_detail_sel" -auto_display "1" -display "Show Detail" -selection "Any" 
+shortcut_menu_bind_add -type "1" -command "mtrl_copy" -auto_display "1" -display "Copy Material" -selection "Material" 
+shortcut_menu_bind_add -type "1" -command "mtrl_move" -auto_display "1" -display "Material Move" -selection "Material" 
+shortcut_menu_bind_add -type "1" -command "process_3d" -auto_display "1" -display "Process and Create Solids" -selection "Custom" -custom_selection_or "Members" 
+shortcut_menu_bind_add -type "1" -command "mode_cmd navigate" -auto_display "0" -display "Navigate" -selection "Always" 
+shortcut_menu_bind_add -type "1" -command "isolate_locate" -auto_display "1" -display "Isolate Member by Location" -selection "Default" 
+shortcut_menu_bind_add -type "3" -auto_display "1" -display "----------------" -selection "Any" 
+shortcut_menu_bind_add -type "2" -menu_type "Edit Other" -auto_display "1" -display "Edit Other" -selection "Always" 
+shortcut_menu_bind_add -type "2" -menu_type "Show Detail Other" -auto_display "1" -display "Show Detail Other" -selection "Always" 
+shortcut_menu_bind_add -type "1" -command "select3d_clear" -auto_display "1" -display "Clear Selection" -selection "Always" 
+shortcut_menu_bind_add -type "1" -command "restore_retained_selection" -auto_display "1" -display "Restore Selection" -selection "Always" 
+shortcut_menu_bind_add -type "3" -auto_display "1" -display "----------------" -selection "Always" 
+shortcut_menu_bind_add -type "1" -command "unzoom_all" -auto_display "1" -display "Unzoom" -selection "Always" 
+shortcut_menu_bind_add -type "1" -command "redraw" -auto_display "1" -display "Redraw" -selection "Always" 
+shortcut_menu_bind_add -type "3" -auto_display "1" -display "----------------" -selection "Material" 
+shortcut_menu_bind_add -type "3" -auto_display "1" -display "----------------" -selection "Custom" -custom_selection_or "Group Members" -custom_selection_or "Members" 
+shortcut_menu_bind_add -type "1" -command "memb_set_mode_stick" -auto_display "1" -display "Stick" -selection "Custom" -custom_selection_or "Group Members" -custom_selection_or "Members" 
+shortcut_menu_bind_add -type "1" -command "memb_set_mode_solid_t" -auto_display "1" -display "Solid Transparent" -selection "Custom" -custom_selection_or "Group Members" -custom_selection_or "Members" 
+shortcut_menu_bind_add -type "1" -command "memb_set_mode_solid_tm" -auto_display "1" -display "Solid Transparent Main" -selection "Custom" -custom_selection_or "Group Members" -custom_selection_or "Members" 
+shortcut_menu_bind_add -type "3" -auto_display "1" -display "----------------" -selection "Custom" -custom_selection_or "Group Members" -custom_selection_or "Members" 
+shortcut_menu_bind_add -type "1" -command "group_isolate_locate" -auto_display "1" -display "Isolate Group Member by Location" -selection "Custom" -custom_selection_or "Group Members" 
+shortcut_menu_add -name "model_tree"
+shortcut_menu_bind_add -type "1" -command "edit_selection" -auto_display "1" -display "Edit" -selection "Any" 
+shortcut_menu_bind_add -type "1" -command "context_dflt_detail_sel" -auto_display "1" -display "Show Detail" -selection "Any" 
+shortcut_menu_bind_add -type "3" -auto_display "1" -display "----------------" -selection "Any" 
+shortcut_menu_bind_add -type "1" -command "mtv_select_object" -auto_display "1" -display "Select" -selection "Always" 
+shortcut_menu_bind_add -type "1" -command "mtv_edit_object" -auto_display "1" -display "Edit this" -selection "Always" 
+shortcut_menu_bind_add -type "1" -command "restore_retained_selection" -auto_display "1" -display "Restore Selection" -selection "Always" 
+shortcut_menu_bind_add -type "1" -command "process_3d" -auto_display "1" -display "Process and Create Solids" -selection "Always" 
+shortcut_menu_bind_add -type "1" -command "unzoom" -auto_display "1" -display "Zoom to Fit" -selection "Always" 
+shortcut_menu_bind_add -type "1" -command "unzoom_all" -auto_display "1" -display "Unzoom" -selection "Always" 
+shortcut_menu_bind_add -type "1" -command "redraw" -auto_display "1" -display "Redraw" -selection "Always" 
+shortcut_menu_bind_add -type "3" -auto_display "1" -display "----------------" -selection "Custom" -custom_selection_or "Group Members" -custom_selection_or "Members" 
+shortcut_menu_bind_add -type "1" -command "memb_set_mode_stick" -auto_display "1" -display "Stick" -selection "Custom" -custom_selection_or "Group Members" -custom_selection_or "Members" 
+shortcut_menu_bind_add -type "1" -command "memb_set_mode_solid" -auto_display "1" -display "Solid Opaque" -selection "Custom" -custom_selection_or "Group Members" -custom_selection_or "Members" 
+shortcut_menu_bind_add -type "1" -command "memb_set_mode_solid_t" -auto_display "1" -display "Solid Transparent" -selection "Custom" -custom_selection_or "Group Members" -custom_selection_or "Members" 
+shortcut_menu_bind_add -type "1" -command "memb_set_mode_solid_tm" -auto_display "1" -display "Solid Transparent Main" -selection "Custom" -custom_selection_or "Group Members" -custom_selection_or "Members" 
+shortcut_menu_bind_add -type "3" -auto_display "1" -display "----------------" -selection "Always" 
+shortcut_menu_bind_add -type "1" -command "mtv_expand_all" -auto_display "1" -display "Expand all" -selection "Always" 
+shortcut_menu_bind_add -type "1" -command "mtv_collapse_all" -auto_display "1" -display "Collapse all" -selection "Always" 
